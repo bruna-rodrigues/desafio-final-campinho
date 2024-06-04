@@ -1,0 +1,13 @@
+.Header{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;    /* Centraliza o conteúdo verticalmente */
+    background-color: purple; /* Cor de fundo */
+    color: white;           /* Cor do texto */
+    height: 50vh;          /* Altura do header ocupa toda a altura da viewport */
+    text-align: center;     /* Centraliza o texto */
+    width: 100%;            /* Largura do header ocupa toda a largura da página */
+    box-sizing: border-box; /* Inclui padding e border na largura e altura */
+    margin-bottom: 40px; /* Adiciona margem na parte inferior do header */
+    
+}
