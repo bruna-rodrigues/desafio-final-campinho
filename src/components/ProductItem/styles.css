@@ -1,4 +1,5 @@
 .ProductItem{
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -6,14 +7,16 @@
     width: 200px;
     text-align: left;
     /* border: 1px solid rgba(145, 145, 145, 0.225); */
-    border: 1px solid rgba(255, 255, 255, 0.225);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 10px;
     padding: 10px;
-    background: grey;
+    background: rgb(0, 0, 0);
     padding-top: 30px;
+    color: white;
 }
 
 div img{
+    border-radius: 10px;
     width: 100px;
     height: 100px;
     align-self: center;

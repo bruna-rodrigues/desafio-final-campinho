@@ -1,13 +1,119 @@
-.Header{
-    display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center;    /* Centraliza o conteúdo verticalmente */
-    background-color: purple; /* Cor de fundo */
-    color: white;           /* Cor do texto */
-    height: 50vh;          /* Altura do header ocupa toda a altura da viewport */
-    text-align: center;     /* Centraliza o texto */
-    width: 100%;            /* Largura do header ocupa toda a largura da página */
-    box-sizing: border-box; /* Inclui padding e border na largura e altura */
-    margin-bottom: 40px; /* Adiciona margem na parte inferior do header */
-    
+.Header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;    
+  background-color: purple; 
+  height: 35vh;           
+  padding: 0 20px;        
+  box-sizing: border-box; 
+  margin-bottom: 40px;    
+  position: relative;
+}
+
+.logo {
+  width: 100px; 
+  height: auto;
+  margin-right: 450px; 
+}
+
+.logo img {
+  width: 300px; 
+  height: auto; 
+}
+
+/* .header-text {
+  flex: 1; 
+  text-align: center; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; /* Centraliza verticalmente 
+  color: white;
+} */
+
+.header-text {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centraliza verticalmente */
+  color: white;
+  font-size: 1em; /* Tamanho da fonte padrão */
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .header-text {
+    font-size: 1.5em; /* Reduz o tamanho da fonte para telas menores que 768px */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header-text {
+    font-size: 1.2em; /* Reduz ainda mais o tamanho da fonte para telas menores que 480px */
+  }
+}
+
+
+
+.campo-busca {
+display: flex;
+align-items: center;
+}
+
+.campo-busca label {
+margin-right: 10px; 
+}
+
+.campo-busca select, .campo-busca button {
+padding: 10px;
+border: 0;
+border-radius: 4px;
+font-size: 16px;
+}
+
+.campo-busca select {
+min-width: 150px;
+}
+
+.campo-busca button {
+background-color: #ff00ee;
+color: white;
+cursor: pointer;
+}
+
+.campo-busca button:hover {
+background-color: grey;
+}
+
+/* Ajusta para o campo de busca ficar no canto superior direito */
+@media (min-width: 600px) {
+.campo-busca {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+}
+
+.container-botao {
+position: absolute;   
+bottom: 0;            
+right: 0;             
+margin: 10px;         
+}
+
+/* Estilização do botão */
+.botao-recarregar {
+padding: 10px 20px;       
+font-size: 16px;         
+border: none;            
+background-color: #ff00ee; 
+color: white;            
+cursor: pointer;         
+border-radius: 5px;       
+transition: background-color 0.3s; 
+}
+
+/* Estilização adicional para hover */
+.botao-recarregar:hover {
+background-color: grey; 
 }
