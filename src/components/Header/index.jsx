@@ -6,7 +6,12 @@ export const Header = () => {
   <header className='Header'>
   <div className='container'>
   <img src='/logo.png' alt="Logo da Loja" className="logo" />
-    <h1>Sejam bem-vindos!</h1>
+
+    
+     <div className='header-text'>
+                <h1>Sejam bem-vindos!</h1>   
+    </div>
+    
     <div className='campo-busca'>
       <label htmlFor="category">Buscar por categoria:</label>
       <select

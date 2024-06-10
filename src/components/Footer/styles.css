@@ -6,22 +6,6 @@
   }
 }
 
-/* .Footer {
-    background-color: purple;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center; /* Centraliza todo o conteúdo dentro do Footer
-  }
-  
-  .Footer .container {
-    margin: 0 auto; /* Centraliza o Footer horizontalmente 
-  }
-  
-  .Footer .container p {
-    margin: 10px 0;
-    text-align: center; /* Centraliza o texto 
-  } */
-
   .Footer {
     background-color: purple;
     color: #fff;
@@ -91,10 +75,12 @@
 /*Botão de voltar ao início */
 
 .back-to-top {
-  position: fixed; 
-  bottom: 20px;    
-  right: 20px;    
-  z-index: 1000;   
+
+  position: relative;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    z-index: 1000;   
 }
 
 .back-to-top button {
