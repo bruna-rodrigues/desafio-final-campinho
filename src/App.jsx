@@ -153,9 +153,11 @@ function App() {
             <div className="copyright">
               <p>© 2024 Bruna's Store. Todos os direitos reservados.</p>
             </div>
+
             <div className='back-to-top'>
               <button onClick={scrollToTop}>Voltar ao Início</button>
             </div>
+            
           </footer>
       }
     </main>
